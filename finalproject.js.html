@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+      <p>Click on the button to display message</p>
+      <button onclick="postMessage()">Post message</button>
+      <p id="demo"></p>
+      <script>
+              postMessage();
+          function postMessa{
+              var d = new Date();
+              var output;
+              var person=prompt("Enter your name:","John Wells");
+                  person=prompt("Enter your message","Message");
+              if (person!=null)
+              {
+               output=d.toString() + "<\n>";
+               output+="Name: " + person + "\n";
+               output+="message: " + person + "<\n>";
+              document.getElementById("demo").innerHTML=output;
+             // console.log(output);
+            }
+             
+}
+          
+      </script>
+    </body>
+</html>

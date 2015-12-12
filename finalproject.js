@@ -14,8 +14,13 @@ function post (name,subject,date,message) {
     this.postname = name;
     this.subjectname = subject;
     this.date = date;
-    this.time = time;
     this.message = message;
+}
+
+var x = ["","",""];
+function names(a,b,c) {
+    if post == x;
+    console.assert(names == x);
 }
 /*<form name="myform" action="demo_form.asp"
 onsubmit="return validatForm()" method="post">
