@@ -19,12 +19,12 @@ function post (name,subject,date,message) {
 
 var x = ["","",""];
 function names(a,b,c) {
-    if post == x;
+    if (post == x)
     console.assert(names == x);
 }
-/*<form name="myform" action="demo_form.asp"
+<form name="myform" action="demo_form.asp"
 onsubmit="return validatForm()" method="post">
 Name: <input type="text" name="fname">
 <input type="submit" value="Submit"
-</form>*/
+</form>
 

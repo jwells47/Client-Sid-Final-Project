@@ -9,22 +9,25 @@
       <p id="demo"></p>
       <script>
               postMessage();
-          function postMessa{
+          function postMessage(){
               var d = new Date();
               var output;
               var person=prompt("Enter your name:","John Wells");
-                  person=prompt("Enter your message","Message");
               if (person!=null)
+              var message=prompt("Enter your message","Message");
+              if (message!=null)
+              
               {
                output=d.toString() + "<\n>";
                output+="Name: " + person + "\n";
-               output+="message: " + person + "<\n>";
-              document.getElementById("demo").innerHTML=output;
-             // console.log(output);
+               output+="message: " + message + "<\n>";
+              //document.getElementById("demo").innerHTML=output;
+             console.log(output);
             }
              
-}
-          
+       }
+
+       
       </script>
     </body>
 </html>

@@ -1,15 +1,5 @@
-   postName();
-function postName()
-{
- var output;
- var person=prompt("Enter your name","John Wells");
- if(person!=null)
- {
-  output="Name: " + person + "<br/>";
- console.log(output);
- }
-}
-/*simInput();
+ 
+simInput();
 
 function simInput(){
  
@@ -29,12 +19,3 @@ function postMessage(name,message){
      output += "Message: " + message + "\n";
  console.log(output);
 }
-
- oldMessages();
-function oldMessages(){
-var output;
-if (output!=null){
- var a = output;
- console.log(a);
-}
-}*/
