@@ -7,21 +7,22 @@
       <p>Click on the button to display message</p>
       <button onclick="postMessage()">Post message</button>
       <p id="demo"></p>
+   //In this code I have declared and defined the function postMessage()  which will execute the task of collecting a journal/post entry and display it to a browser
       <script>
               postMessage();
           function postMessage(){
-              var d = new Date();
-              var output;
-              var person=prompt("Enter your name:","John Wells");
-              if (person!=null)
-              var message=prompt("Enter your message","Message");
-              if (message!=null)
+              var d = new Date(); //here I declared var d and used it to store a built in date object to obtain the current date and time
+              var output;//here I defined the variable output
+              var person=prompt("Enter your name:","John Wells");//here I defined the variable person and used it to collect user input
+              if (person!=null)//here I used an if statement to evaluate a condition
+              var message=prompt("Enter your message","Message");//here i defined the variable message and used it to collect usuer input
+              if (message!=null)//here I used an if statement to evaluate a condition
               
               {
-               output=d.toString() + "<br/>";
-               output+="Name: " + person + "<br/>";
-               output+="message: " + message + "<br/>";
-              document.getElementById("demo").innerHTML=output;
+               output=d.toString() + "<br/>";//here I set output == expression of current date object
+               output+="Name: " + person + "<br/>";//here if person == "something" it will store that value 
+               output+="message: " + message + "<br/>";// here if message == "something" it will store that value
+              document.getElementById("demo").innerHTML=output;//this will display to values of output to the browser in ordered form
              //console.log(output);
             }
              
